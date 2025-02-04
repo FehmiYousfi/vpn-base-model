@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/CMakeFiles/libopenvpn"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/CMakeFiles/libopenvpn.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/CMakeFiles/libopenvpn-complete.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-build.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-configure.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-download.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-install.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-mkdir.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-patch.rule"
+		},
+		{
+			"file" : "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/libopenvpn-prefix/src/libopenvpn-stamp/libopenvpn-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libopenvpn"
+		],
+		"name" : "libopenvpn"
+	}
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ovpncli.dir/cli.cpp.o -o ovpncli  -lpthread /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/liblz4.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

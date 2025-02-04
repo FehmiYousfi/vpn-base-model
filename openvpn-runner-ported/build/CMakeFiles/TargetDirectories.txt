@@ -1,0 +1,3 @@
+/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/CMakeFiles/OpenVPNClient.dir
+/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/CMakeFiles/edit_cache.dir
+/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/CMakeFiles/rebuild_cache.dir

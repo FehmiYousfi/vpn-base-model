@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibopenvpn3.a CMakeFiles/libopenvpn3.dir/OpenVpnInstance.cpp.o
+/usr/bin/ranlib liblibopenvpn3.a

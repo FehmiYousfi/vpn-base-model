@@ -1,0 +1,28 @@
+fullTest:
+  device:
+  - model: flame
+    version: 29
+  - model: walleye
+    version: 27
+  - model: starqltechn
+    version: 26
+  - model: G8142
+    version: 25
+quickTest:
+  timeout: 30m
+  device:
+  - model: Pixel2
+    version: 28
+  - model: Nexus5X
+    version: 23
+realConnectionTest:
+  timeout: 30m
+  device:
+  - model: blueline
+    version: 28
+tvTest:
+  timeout: 30m
+  device:
+  - model: GoogleTvEmulator
+    orientation: landscape
+    version: 30

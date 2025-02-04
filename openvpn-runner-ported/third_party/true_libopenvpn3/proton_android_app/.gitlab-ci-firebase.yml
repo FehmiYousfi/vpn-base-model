@@ -1,0 +1,111 @@
+.firebase_authenticate_script: &firebase_authenticate_script
+  - echo ${ARCHIVES_BASE_NAME}
+  - echo $CLOUD_PROJECT_ID
+  - gcloud config set project $CLOUD_PROJECT_ID
+  - echo "$SERVICE_ACCOUNT" > /tmp/service-account.json
+  - gcloud auth activate-service-account --key-file /tmp/service-account.json
+  - APP="$APP_LOCATION"${ARCHIVES_BASE_NAME}-${APP_TYPE}
+  - TEST_APP="$TEST_APP_LOCATION"${ARCHIVES_BASE_NAME}-${TEST_APP_TYPE}
+  - echo $APP
+  - echo $TEST_APP
+  - echo $PWD
+
+.tests_preparation_script:
+  stage: test
+  tags:
+    - small
+  variables:
+    CHECKOUT_CORE_SUBMODULE: "true"
+    NUM_SHARDS: 1
+  script:
+    - *firebase_authenticate_script
+    - awk 'BEGIN { print strftime()  }'
+    - gcloud --quiet beta firebase test android
+      run firebase-device-config.yml:${TESTS_TYPE}
+      --app "$APP"
+      --test "$TEST_APP"
+      --use-orchestrator
+      --num-uniform-shards=${NUM_SHARDS}
+      --num-flaky-test-attempts=2
+      --environment-variables coverage=true,coverageFilePath="/sdcard/Download/",listener=com.protonvpn.testsHelper.ToastingRunListener
+      --directories-to-pull /sdcard
+      --test-targets "class $TEST_SUITE" 2>&1 | tee results.txt
+    - echo gcloud end time
+    - awk 'BEGIN { print strftime()  }'
+    - gcsbucket=$(cat results.txt | grep 'Raw results will be stored' | awk -F/ '{print "gs://" $6 "/" $7}')
+    - echo $gcsbucket
+    - gsutil ls $gcsbucket
+        | grep '/$'
+        | while read -r line; do
+            dst=app/build/outputs/coverage/${COVERAGE_FOLDER}/`basename "$line"`;
+            mkdir -p "$dst";
+            gsutil -m cp ${line}artifacts/sdcard/Download/*.ec "$dst";
+          done
+    - awk 'BEGIN { print strftime()  }'
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - app/build/outputs/
+
+firebase quick tests:
+  extends: .tests_preparation_script
+  variables:
+    TESTS_TYPE: quickTest
+    NUM_SHARDS: 4
+    APP_LOCATION: "app/build/outputs/apk/googlePlay/debug/"
+    APP_TYPE: "googlePlay-debug.apk"
+    TEST_APP_LOCATION: "app/build/outputs/apk/androidTest/googlePlay/debug/"
+    TEST_APP_TYPE: "googlePlay-debug-androidTest.apk"
+    TEST_SUITE: "com.protonvpn.testSuites.MobileSuite"
+    COVERAGE_FOLDER: "mobile_quick"
+
+firebase full tests:
+  extends: .tests_preparation_script
+  variables:
+    TESTS_TYPE: fullTest
+    NUM_SHARDS: 4
+    APP_LOCATION: "app/build/outputs/apk/googlePlay/debug/"
+    APP_TYPE: "googlePlay-debug.apk"
+    TEST_APP_LOCATION: "app/build/outputs/apk/androidTest/googlePlay/debug/"
+    TEST_APP_TYPE: "googlePlay-debug-androidTest.apk"
+    TEST_SUITE: "com.protonvpn.testSuites.MobileSuite"
+    COVERAGE_FOLDER: "mobile_full"
+  when: manual
+
+firebase tv tests:
+  extends: .tests_preparation_script
+  variables:
+    TESTS_TYPE: tvTest
+    APP_LOCATION: "app/build/outputs/apk/googlePlay/debug/"
+    APP_TYPE: "googlePlay-debug.apk"
+    TEST_APP_LOCATION: "app/build/outputs/apk/androidTest/googlePlay/debug/"
+    TEST_APP_TYPE: "googlePlay-debug-androidTest.apk"
+    TEST_SUITE: "com.protonvpn.testSuites.TvSuite"
+    COVERAGE_FOLDER: "tv"
+
+firebase real connection tests:
+  extends: .tests_preparation_script
+  variables:
+    TESTS_TYPE: realConnectionTest
+    APP_LOCATION: "app/build/outputs/apk/googlePlay/debug/"
+    APP_TYPE: "googlePlay-debug.apk"
+    TEST_APP_LOCATION: "app/build/outputs/apk/androidTest/googlePlay/debug/"
+    TEST_APP_TYPE: "googlePlay-debug-androidTest.apk"
+    TEST_SUITE: "com.protonvpn.testSuites.RealConnectionSuite"
+    COVERAGE_FOLDER: "real_connection"
+
+firebase robo tests:
+  stage: test
+  tags:
+    - small
+  script:
+    - *firebase_authenticate_script
+    - gcloud firebase test android run
+      --type robo
+      --app "$APP"
+      --device model=Pixel3,version=30,locale=en,orientation=portrait
+      --timeout 300s
+  variables:
+    APP_LOCATION: "app/build/outputs/apk/googlePlay/debug/"
+    APP_TYPE: "googlePlay-debug.apk"
+    CHECKOUT_CORE_SUBMODULE: "true"
