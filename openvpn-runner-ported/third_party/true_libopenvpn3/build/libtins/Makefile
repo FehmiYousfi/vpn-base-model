@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3
+CMAKE_SOURCE_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build
+CMAKE_BINARY_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins//CMakeFiles/progress.marks
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles 0
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins//CMakeFiles/progress.marks
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/clean
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/preinstall
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/preinstall
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libtins/CMakeFiles/uninstall.dir/rule:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/CMakeFiles/uninstall.dir/rule
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/CMakeFiles/uninstall.dir/rule
 .PHONY : libtins/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ uninstall: libtins/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f libtins/CMakeFiles/uninstall.dir/build.make libtins/CMakeFiles/uninstall.dir/build
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f libtins/CMakeFiles/uninstall.dir/build.make libtins/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Convenience name for target.
 libtins/CMakeFiles/googletest.dir/rule:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/CMakeFiles/googletest.dir/rule
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtins/CMakeFiles/googletest.dir/rule
 .PHONY : libtins/CMakeFiles/googletest.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ googletest: libtins/CMakeFiles/googletest.dir/rule
 
 # fast build rule for target.
 googletest/fast:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f libtins/CMakeFiles/googletest.dir/build.make libtins/CMakeFiles/googletest.dir/build
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f libtins/CMakeFiles/googletest.dir/build.make libtins/CMakeFiles/googletest.dir/build
 .PHONY : googletest/fast
 
 # Help Target
@@ -214,6 +214,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

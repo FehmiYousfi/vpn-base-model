@@ -1,4 +1,4 @@
-# Install script for directory: /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3
+# Install script for directory: /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/cmake_install.cmake")
-  include("/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ovpncli/cmake_install.cmake")
-  include("/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/cli-lib/cmake_install.cmake")
-  include("/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl/cmake_install.cmake")
+  include("/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/cmake_install.cmake")
+  include("/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ovpncli/cmake_install.cmake")
+  include("/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/cli-lib/cmake_install.cmake")
+  include("/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl/cmake_install.cmake")
 
 endif()
 

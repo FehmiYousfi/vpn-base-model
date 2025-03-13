@@ -1,10 +1,10 @@
 # Taken from https://cmake.org/Wiki/CMake_FAQ#Can_I_do_.22make_uninstall.22_with_CMake.3F
 
-if(NOT EXISTS "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt")
-endif(NOT EXISTS "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt")
+if(NOT EXISTS "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt")
+endif(NOT EXISTS "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt")
 
-file(READ "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt" files)
+file(READ "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

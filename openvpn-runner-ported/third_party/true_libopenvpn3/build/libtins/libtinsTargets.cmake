@@ -48,7 +48,7 @@ add_library(tins STATIC IMPORTED)
 set_property(TARGET tins APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(tins PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/lib/libtins.a"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/lib/libtins.a"
   )
 
 # This file does not depend on other imported targets which have

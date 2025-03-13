@@ -1,7 +1,7 @@
 libtins/src/CMakeFiles/tins.dir/utils/frequency_utils.cpp.o: \
- /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/utils/frequency_utils.cpp \
+ /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/utils/frequency_utils.cpp \
  /usr/include/stdc-predef.h \
- /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/utils/frequency_utils.h \
+ /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/utils/frequency_utils.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,7 +17,7 @@ libtins/src/CMakeFiles/tins.dir/utils/frequency_utils.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/macros.h \
+ /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/macros.h \
  /usr/include/x86_64-linux-gnu/sys/param.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
@@ -83,4 +83,4 @@ libtins/src/CMakeFiles/tins.dir/utils/frequency_utils.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/x86_64-linux-gnu/asm/param.h \
  /usr/include/asm-generic/param.h \
- /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/config.h
+ /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/config.h

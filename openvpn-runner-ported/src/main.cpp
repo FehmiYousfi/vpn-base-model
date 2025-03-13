@@ -80,6 +80,31 @@ OvpnStats LiveStats = OvpnStats();
 
 #ifndef OPENVPN_OVPNCLI_OMIT_MAIN
 
+
+#include <fstream>
+#include <stdexcept>
+#include <string>
+
+std::string read_file(const std::string& file_path) {
+    std::ifstream file(file_path, std::ios::binary);
+    if (!file.is_open()) {
+        throw std::runtime_error("Failed to open file: " + file_path);
+    }
+    
+    std::string content;
+    file.seekg(0, std::ios::end);
+    content.resize(file.tellg());
+    file.seekg(0, std::ios::beg);
+    file.read(&content[0], content.size());
+    
+    return content;
+}
+
+// #include <openvpn3/openvpn/log/logbase.hpp>
+// #include <openvpn3/openvpn/log/logbasesimple.hpp>
+
+
+
 int main(int argc, char *argv[])
 {
   int ret = 0;
@@ -96,8 +121,10 @@ int main(int argc, char *argv[])
 
   try {
     // Create mutex for thread synchronization
-	int result = start_openvpn_client(argc, argv, &LiveStats);
-
+	// int result = start_openvpn_client(argc, argv, &LiveStats);
+    std::string config_content = read_file("runner-0.ovpn");
+        // Use the content...
+    int result = openvpn_client_minimal(&config_content,&LiveStats);
     // Check the result
     if (result == 0) {
         std::cout << "OpenVPN client exited successfully." << std::endl;

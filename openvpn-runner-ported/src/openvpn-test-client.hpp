@@ -1271,4 +1271,32 @@ int start_openvpn_client(int argc, char* argv[], OvpnStats* stats_ptr) {
     return ret;
 }
 
+
+int openvpn_client_minimal(const std::string* profile_content, OvpnStats* stats_ptr)
+{
+  int ret = 0;
+  auto cleanup = Cleanup([]() {
+      the_client = nullptr;
+    });
+
+  try {
+    Client client;
+    ClientAPI::Config config;
+    config.content = *profile_content;
+
+    // Evaluate configuration
+    const ClientAPI::EvalConfig eval = client.eval_config(config);
+    if (eval.error)
+      OPENVPN_THROW_EXCEPTION("Configuration error: " << eval.message);
+
+    // Start OpenVPN client
+    start_thread(client, stats_ptr);
+  }
+  catch (const std::exception& e) {
+    std::cerr << "Error: " << e.what() << std::endl;
+    ret = 1;
+  }
+  return ret;
+}
+
 #endif // OPENVPN_TEST_CLIENT_H

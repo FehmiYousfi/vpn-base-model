@@ -1,7 +1,7 @@
 libtins/src/CMakeFiles/tins.dir/detail/sequence_number_helpers.cpp.o: \
- /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/detail/sequence_number_helpers.cpp \
+ /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/detail/sequence_number_helpers.cpp \
  /usr/include/stdc-predef.h \
- /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/detail/sequence_number_helpers.h \
+ /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include/tins/detail/sequence_number_helpers.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

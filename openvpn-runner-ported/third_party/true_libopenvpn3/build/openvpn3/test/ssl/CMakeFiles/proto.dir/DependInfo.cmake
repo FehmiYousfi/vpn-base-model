@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp" "openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o" "gcc" "openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o.d"
+  "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp" "openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o" "gcc" "openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o.d"
   )
 
 # Targets to which this target links.

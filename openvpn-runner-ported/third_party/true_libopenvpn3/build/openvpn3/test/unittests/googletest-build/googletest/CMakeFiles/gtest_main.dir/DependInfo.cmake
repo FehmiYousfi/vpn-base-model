@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-src/googletest/src/gtest_main.cc" "openvpn3/test/unittests/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "openvpn3/test/unittests/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
+  "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-src/googletest/src/gtest_main.cc" "openvpn3/test/unittests/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" "gcc" "openvpn3/test/unittests/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

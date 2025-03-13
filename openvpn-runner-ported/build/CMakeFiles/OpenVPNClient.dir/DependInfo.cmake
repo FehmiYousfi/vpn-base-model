@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/src/main.cpp" "CMakeFiles/OpenVPNClient.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenVPNClient.dir/src/main.cpp.o.d"
+  "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/src/main.cpp" "CMakeFiles/OpenVPNClient.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenVPNClient.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

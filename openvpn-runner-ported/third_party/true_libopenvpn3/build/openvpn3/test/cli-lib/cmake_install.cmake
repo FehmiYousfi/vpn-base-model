@@ -1,4 +1,4 @@
-# Install script for directory: /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/cli-lib
+# Install script for directory: /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/cli-lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

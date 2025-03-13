@@ -1278,8 +1278,13 @@ CMakeFiles/OpenVPNClient.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/getopt_ext.h \
   ../third_party/true_libopenvpn3/openvpn3/openvpn/common/getpw.hpp \
   /usr/include/pwd.h \
-  ../third_party/true_libopenvpn3/openvpn3/openvpn/time/timestr.hpp
+  ../third_party/true_libopenvpn3/openvpn3/openvpn/time/timestr.hpp \
+  ../third_party/true_libopenvpn3/openvpn3/openvpn/log/logbase.hpp \
+  ../third_party/true_libopenvpn3/openvpn3/openvpn/log/logbasesimple.hpp \
+  ../third_party/true_libopenvpn3/openvpn3/openvpn/log/logbase.hpp
 
+
+../third_party/true_libopenvpn3/openvpn3/openvpn/log/logbasesimple.hpp:
 
 ../third_party/true_libopenvpn3/openvpn3/openvpn/common/getpw.hpp:
 
@@ -2864,6 +2869,8 @@ CMakeFiles/OpenVPNClient.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/asio/detail/timer_queue.hpp:
 
 ../third_party/true_libopenvpn3/openvpn3/openvpn/client/cliconnect.hpp:
+
+../third_party/true_libopenvpn3/openvpn3/openvpn/log/logbase.hpp:
 
 /usr/include/asio/detail/date_time_fwd.hpp:
 

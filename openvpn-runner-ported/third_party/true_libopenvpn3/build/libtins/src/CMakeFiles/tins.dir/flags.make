@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DTINS_STATIC=1
 
-CXX_INCLUDES = -I/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include
+CXX_INCLUDES = -I/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/src/../include
 
 CXX_FLAGS =  -Wall -Wextra -std=c++11 -O2 -g -DNDEBUG -Wno-unused-variable -Wno-deprecated-declarations -Wno-array-bounds -fpermissive -Wno-unused-parameter -Wno-error=maybe-uninitialized
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/fyou/Desktop/ovpn-build/openvpn-runner-ported
+# Install script for directory: /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

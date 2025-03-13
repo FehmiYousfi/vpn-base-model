@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3
+CMAKE_SOURCE_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build
+CMAKE_BINARY_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include libtins/CMakeFiles/uninstall.dir/compiler_depend.make
 include libtins/CMakeFiles/uninstall.dir/progress.make
 
 libtins/CMakeFiles/uninstall:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins && /usr/bin/cmake -P /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/cmake_uninstall.cmake
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins && /usr/bin/cmake -P /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/cmake_uninstall.cmake
 
 uninstall: libtins/CMakeFiles/uninstall
 uninstall: libtins/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ libtins/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : libtins/CMakeFiles/uninstall.dir/build
 
 libtins/CMakeFiles/uninstall.dir/clean:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : libtins/CMakeFiles/uninstall.dir/clean
 
 libtins/CMakeFiles/uninstall.dir/depend:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3 /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3 /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libtins/CMakeFiles/uninstall.dir/depend
 

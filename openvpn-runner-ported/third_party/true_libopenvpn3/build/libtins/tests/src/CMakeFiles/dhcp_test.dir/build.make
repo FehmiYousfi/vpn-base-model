@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3
+CMAKE_SOURCE_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build
+CMAKE_BINARY_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build
 
 # Include any dependencies generated for this target.
 include libtins/tests/src/CMakeFiles/dhcp_test.dir/depend.make
@@ -72,16 +72,16 @@ include libtins/tests/src/CMakeFiles/dhcp_test.dir/flags.make
 libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o: libtins/tests/src/CMakeFiles/dhcp_test.dir/flags.make
 libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o: ../libtins/tests/src/dhcp_test.cpp
 libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o: libtins/tests/src/CMakeFiles/dhcp_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o -MF CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o.d -o CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o -c /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src/dhcp_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o"
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o -MF CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o.d -o CMakeFiles/dhcp_test.dir/dhcp_test.cpp.o -c /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src/dhcp_test.cpp
 
 libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dhcp_test.dir/dhcp_test.cpp.i"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src/dhcp_test.cpp > CMakeFiles/dhcp_test.dir/dhcp_test.cpp.i
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src/dhcp_test.cpp > CMakeFiles/dhcp_test.dir/dhcp_test.cpp.i
 
 libtins/tests/src/CMakeFiles/dhcp_test.dir/dhcp_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dhcp_test.dir/dhcp_test.cpp.s"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src/dhcp_test.cpp -o CMakeFiles/dhcp_test.dir/dhcp_test.cpp.s
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src/dhcp_test.cpp -o CMakeFiles/dhcp_test.dir/dhcp_test.cpp.s
 
 # Object files for target dhcp_test
 dhcp_test_OBJECTS = \
@@ -97,18 +97,18 @@ tests/dhcp_test: lib/libgtest_main.a
 tests/dhcp_test: libtins/lib/libtins.a
 tests/dhcp_test: lib/libgtest.a
 tests/dhcp_test: libtins/tests/src/CMakeFiles/dhcp_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../tests/dhcp_test"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dhcp_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../tests/dhcp_test"
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dhcp_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libtins/tests/src/CMakeFiles/dhcp_test.dir/build: tests/dhcp_test
 .PHONY : libtins/tests/src/CMakeFiles/dhcp_test.dir/build
 
 libtins/tests/src/CMakeFiles/dhcp_test.dir/clean:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && $(CMAKE_COMMAND) -P CMakeFiles/dhcp_test.dir/cmake_clean.cmake
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src && $(CMAKE_COMMAND) -P CMakeFiles/dhcp_test.dir/cmake_clean.cmake
 .PHONY : libtins/tests/src/CMakeFiles/dhcp_test.dir/clean
 
 libtins/tests/src/CMakeFiles/dhcp_test.dir/depend:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3 /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src/CMakeFiles/dhcp_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3 /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/libtins/tests/src /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/libtins/tests/src/CMakeFiles/dhcp_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libtins/tests/src/CMakeFiles/dhcp_test.dir/depend
 

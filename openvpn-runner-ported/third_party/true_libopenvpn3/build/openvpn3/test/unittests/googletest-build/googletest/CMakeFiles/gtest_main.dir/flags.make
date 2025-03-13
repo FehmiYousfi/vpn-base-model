@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-src/googletest/include -isystem /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-src/googletest
+CXX_INCLUDES = -isystem /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-src/googletest/include -isystem /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/unittests/googletest-src/googletest
 
 CXX_FLAGS = -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wno-unused-variable -Wno-deprecated-declarations -Wno-array-bounds -fpermissive -Wno-unused-parameter -Wno-error=maybe-uninitialized -std=c++11
 

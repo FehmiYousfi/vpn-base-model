@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3
+CMAKE_SOURCE_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build
+CMAKE_BINARY_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl//CMakeFiles/progress.marks
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles 0
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl//CMakeFiles/progress.marks
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/clean
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/preinstall
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/preinstall
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 openvpn3/test/ssl/CMakeFiles/proto.dir/rule:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/CMakeFiles/proto.dir/rule
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvpn3/test/ssl/CMakeFiles/proto.dir/rule
 .PHONY : openvpn3/test/ssl/CMakeFiles/proto.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ proto: openvpn3/test/ssl/CMakeFiles/proto.dir/rule
 
 # fast build rule for target.
 proto/fast:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/build
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/build
 .PHONY : proto/fast
 
 proto.o: proto.cpp.o
@@ -180,7 +180,7 @@ proto.o: proto.cpp.o
 
 # target to build an object file
 proto.cpp.o:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o
 .PHONY : proto.cpp.o
 
 proto.i: proto.cpp.i
@@ -188,7 +188,7 @@ proto.i: proto.cpp.i
 
 # target to preprocess a source file
 proto.cpp.i:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.i
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.i
 .PHONY : proto.cpp.i
 
 proto.s: proto.cpp.s
@@ -196,7 +196,7 @@ proto.s: proto.cpp.s
 
 # target to generate assembly for a file
 proto.cpp.s:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.s
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(MAKE) $(MAKESILENT) -f openvpn3/test/ssl/CMakeFiles/proto.dir/build.make openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.s
 .PHONY : proto.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

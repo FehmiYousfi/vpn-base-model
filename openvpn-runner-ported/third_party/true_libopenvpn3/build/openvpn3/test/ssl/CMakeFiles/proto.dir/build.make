@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3
+CMAKE_SOURCE_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build
+CMAKE_BINARY_DIR = /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build
 
 # Include any dependencies generated for this target.
 include openvpn3/test/ssl/CMakeFiles/proto.dir/depend.make
@@ -72,16 +72,16 @@ include openvpn3/test/ssl/CMakeFiles/proto.dir/flags.make
 openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o: openvpn3/test/ssl/CMakeFiles/proto.dir/flags.make
 openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o: ../openvpn3/test/ssl/proto.cpp
 openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o: openvpn3/test/ssl/CMakeFiles/proto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o -MF CMakeFiles/proto.dir/proto.cpp.o.d -o CMakeFiles/proto.dir/proto.cpp.o -c /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o"
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.o -MF CMakeFiles/proto.dir/proto.cpp.o.d -o CMakeFiles/proto.dir/proto.cpp.o -c /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp
 
 openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proto.dir/proto.cpp.i"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp > CMakeFiles/proto.dir/proto.cpp.i
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp > CMakeFiles/proto.dir/proto.cpp.i
 
 openvpn3/test/ssl/CMakeFiles/proto.dir/proto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proto.dir/proto.cpp.s"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp -o CMakeFiles/proto.dir/proto.cpp.s
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl/proto.cpp -o CMakeFiles/proto.dir/proto.cpp.s
 
 # Object files for target proto
 proto_OBJECTS = \
@@ -96,18 +96,18 @@ openvpn3/test/ssl/proto: /usr/lib/x86_64-linux-gnu/libssl.so
 openvpn3/test/ssl/proto: /usr/lib/x86_64-linux-gnu/liblz4.so
 openvpn3/test/ssl/proto: /usr/lib/x86_64-linux-gnu/libcrypto.so
 openvpn3/test/ssl/proto: openvpn3/test/ssl/CMakeFiles/proto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable proto"
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable proto"
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 openvpn3/test/ssl/CMakeFiles/proto.dir/build: openvpn3/test/ssl/proto
 .PHONY : openvpn3/test/ssl/CMakeFiles/proto.dir/build
 
 openvpn3/test/ssl/CMakeFiles/proto.dir/clean:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && $(CMAKE_COMMAND) -P CMakeFiles/proto.dir/cmake_clean.cmake
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl && $(CMAKE_COMMAND) -P CMakeFiles/proto.dir/cmake_clean.cmake
 .PHONY : openvpn3/test/ssl/CMakeFiles/proto.dir/clean
 
 openvpn3/test/ssl/CMakeFiles/proto.dir/depend:
-	cd /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3 /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl /home/fyou/Desktop/ovpn-build/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl/CMakeFiles/proto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3 /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/openvpn3/test/ssl /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl /home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build/openvpn3/test/ssl/CMakeFiles/proto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : openvpn3/test/ssl/CMakeFiles/proto.dir/depend
 
