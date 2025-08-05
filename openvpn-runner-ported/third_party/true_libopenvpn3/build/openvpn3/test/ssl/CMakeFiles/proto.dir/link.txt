@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/proto.dir/proto.cpp.o -o proto  -lpthread /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/liblz4.so /usr/lib/x86_64-linux-gnu/libcrypto.so 

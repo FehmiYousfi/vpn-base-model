@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/OpenVPNClient.dir/src/main.cpp.o -o OpenVPNClient  /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so ../third_party/true_libopenvpn3/build/liblibopenvpn3.a ../third_party/true_libopenvpn3/build/libtins/lib/libtins.a ../third_party/true_libopenvpn3/build/openvpn3/test/cli-lib/libopenvpncli-ported.a 

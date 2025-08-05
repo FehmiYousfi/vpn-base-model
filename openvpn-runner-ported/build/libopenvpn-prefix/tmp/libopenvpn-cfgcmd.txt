@@ -1,1 +1,0 @@
-cmd='cmake;-S;/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3;-B;/home/fyou/Desktop/vpn-base-model/openvpn-runner-ported/third_party/true_libopenvpn3/build'

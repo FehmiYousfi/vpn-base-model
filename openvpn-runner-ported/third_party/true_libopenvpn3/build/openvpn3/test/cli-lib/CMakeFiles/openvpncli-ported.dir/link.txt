@@ -1,2 +1,0 @@
-/usr/bin/ar qc libopenvpncli-ported.a CMakeFiles/openvpncli-ported.dir/cli.cpp.o
-/usr/bin/ranlib libopenvpncli-ported.a
